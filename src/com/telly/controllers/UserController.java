@@ -11,19 +11,15 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-<<<<<<< HEAD
-=======
 import com.telly.dao.FormValidationGroup;
 import com.telly.dao.User;
 import com.telly.service.UserService;
 
->>>>>>> gestion-util
 
 
 @Controller
 public class UserController {
 
-<<<<<<< HEAD
 
 
 	@RequestMapping("/login")
@@ -37,7 +33,6 @@ public class UserController {
 	}
 	
 	
-=======
 	@Autowired
 	UserService userService;
 	
@@ -69,7 +64,6 @@ public class UserController {
 
 	}
 
->>>>>>> gestion-util
 	
 	
 
